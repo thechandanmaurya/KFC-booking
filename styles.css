@@ -1,0 +1,33 @@
+body{
+    font-family: Cosmic Sans MS, sans-serif;
+}
+table{
+    width:95%;
+    margin: 15px auto;
+    border: none;
+}
+th,td {
+    border: 3px solid black;
+    border-radius: 15px;
+    text-align: center;
+    padding: 5px;
+    background-color: #9c232b;
+    font-size:25px;
+}
+img{
+    width:400px;
+    height: 200px;
+}
+#summary{
+    background-color: #7d96c8 ;
+    color: white;
+}
+.myclass{
+color: white;
+    font-size: 35px;
+}
+.meal{
+    color: #222be0;
+    font-size: 25px;
+    background-color: #7d96c8;
+}

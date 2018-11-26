@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> KFC</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="div">
+    <form>
+            <table  border="2" cellspacing="4">
+                <tr>
+                    <td colspan="2">
+                        <img src="img/unnamed.png">
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td colspan="2" class="myclass"> Customer Information </td>
+                </tr>
+                <tr align="center">
+                    <td> Name </td>
+                    <td> <input type="text" id="txtName"> </td>
+                </tr>
+                <tr align="center">
+                    <td colspan="2" class="meal">Select a Meal</td>
+                </tr>
+                <tr align="center">
+                    <td> <img src="img/Omg_burger.jpg">
+                        <br>
+                        <input type="radio" id="optBurger"  name="meal" value="OMG Burger"> OMG Burger ( &#8377;  120/- )
+                    </td>
+                    <td>
+                        <img src="img/omg-roller.png">
+                        <br>
+                        <input type="radio" id="optRoller"  name="meal" value="OMG Roller"> OMG Roller ( &#8377;  100/- )
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td colspan="2">Select AD-ON </td>
+                </tr>
+                <tr align="center">
+                    <td>
+                        <img src="img/Brownie-Krusher.jpg">
+                        <br>
+                        <input type="checkbox" id="optKrusher" value="Krusher Brownie"> Krusher Brownie ( &#8377; 80/- )
+                    </td>
+                    <td>
+                        <img src="img/Large Fries.jpg">
+                        <br>
+                        <input type="checkbox" id="optFries" value="Large Fries"> Large Fries ( &#8377; 60/- )
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="button" value="Place Order" onclick="Summary()">
+                    </td>
+                </tr>
+                <tr class="summary">
+                    <td colspan="2" align="center" id="summary">
+                    </td>
+                </tr>
+            </table>
+        </font>
+    </form>
+</div>
+<script src="app.js" ></script>
+</body>
+</html>
